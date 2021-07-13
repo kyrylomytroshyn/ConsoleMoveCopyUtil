@@ -35,7 +35,7 @@ To use this util, you need to clone this repo and write in your console like the
 
 7. To do the copy with multithreading write something from examples with 
 ```
- --threading
+ --threading [num_of_threads]
 ```
 
 All results of work you can see in "util_log.log".
