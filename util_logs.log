@@ -1,0 +1,33 @@
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (7-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (19-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (28-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (27-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (31-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (30-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (18-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (5-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (6-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (15-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (29-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1.txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (20-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (10-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (25-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (9-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (12-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (32-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 1 SUCCESSFUL COPIED/MOVED  /tmp//test1 (26-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (13-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (11-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (23-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (4-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (21-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (24-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (22-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (другая копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (14-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (16-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 0 SUCCESSFUL COPIED/MOVED  /tmp//test1 (17-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (3-я копия).txt to /home/kyrylo/temp
+DEBUG:root:Thread 2 SUCCESSFUL COPIED/MOVED  /tmp//test1 (8-я копия).txt to /home/kyrylo/temp
