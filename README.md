@@ -33,4 +33,9 @@ To use this util, you need to clone this repo and write in your console like the
  sudo main.py --move --from "/tmp/*.format" --to "/youraddress" 
 ```
 
+7. To do the copy with multithreading write something from examples with 
+```
+ --threading
+```
+
 All results of work you can see in "util_log.log".
