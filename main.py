@@ -1,27 +1,30 @@
-import argparse
-import shutil
-import logging
+from argparse import ArgumentParser
+from os.path import isdir
+from logging import basicConfig, DEBUG
 from file_util import FileUtil
-
-logging.basicConfig(filename="log.log", level=logging.DEBUG)
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    basicConfig(filename='util_logs.log',
+                level=DEBUG, filemode="w")
+
+    parser = ArgumentParser()
     parser.add_argument('--operation', help='foo help', type=str)
     parser.add_argument('--from', help='file source', type=str)
     parser.add_argument('--to', help='destination file', type=str)
     parser.add_argument('--threads', help='count of threads', type=int)
     args = vars(parser.parse_args())
-
-    util = FileUtil(args['from'], args['to'])
+    source = args['from']
     operation = args['operation']
-    print(operation)
+    if not isdir(args['to']):
+        raise IOError("You entered the wrong destination link to copy/move.")
 
-    if operation == "copy":
-        util.copy(args['threads'])
-    elif operation == "move":
-        util.move(args['threads'])
+    util = FileUtil(source, args['to'])
+    pos = source.find("*.")
+    if pos > 0:
+        util.copy_move_mask(action=operation, pos=pos, threads=args['threads'], )
+    else:
+        util.copy_move(operation, args['threads'], )
 
 
 if __name__ == '__main__':
